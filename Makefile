@@ -18,6 +18,7 @@ clean:
 		rm -rf $(AUTO_DIR)
 		rm -f *.fls
 		rm -f *.log
+		rm -f *.bbl
 
 debug:
 		@echo $(TABLE_TEX_FILES)
